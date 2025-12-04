@@ -4,28 +4,29 @@ body {
   color: #363636; /* Dark Grey for text */
 }
 
+.btn-primary,
+.btn-secondary {
+  color: #fff;
+}
+
 .btn-primary {
   background-color: #468189; /* Muted Teal */
   border-color: #468189;
-  color: #fff;
 }
 
 .btn-primary:hover {
   background-color: #3a6a72;
   border-color: #356066;
-  color: #fff;
 }
 
 .btn-secondary {
   background-color: #b23a48; /* Dark, desaturated red */
   border-color: #b23a48;
-  color: #fff;
 }
 
 .btn-secondary:hover {
   background-color: #9b323f;
   border-color: #902f3a;
-  color: #fff;
 }
 
 /* Custom styles for a pleasing effect */
