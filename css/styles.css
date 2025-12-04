@@ -1,11 +1,31 @@
-:root {
-  /* A calming color scheme featuring a muted teal and the original rosy red. */
-  --bs-primary: #468189; /* Muted Teal */
-  --bs-primary-rgb: 70, 129, 137;
-  --bs-secondary: #b23a48; /* Dark, desaturated red */
-  --bs-secondary-rgb: 178, 58, 72;
-  --bs-body-bg: #f4f1de; /* Cream */
-  --bs-body-color: #363636; /* Dark Grey for text */
+/* A calming color scheme featuring a muted teal and the original rosy red. */
+body {
+  background-color: #f4f1de; /* Cream */
+  color: #363636; /* Dark Grey for text */
+}
+
+.btn-primary {
+  background-color: #468189; /* Muted Teal */
+  border-color: #468189;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #3a6a72;
+  border-color: #356066;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #b23a48; /* Dark, desaturated red */
+  border-color: #b23a48;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #9b323f;
+  border-color: #902f3a;
+  color: #fff;
 }
 
 /* Custom styles for a pleasing effect */
@@ -15,5 +35,5 @@
 
 .link-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 .5rem 1rem rgba(var(--bs-primary-rgb), .15) !important;
+    box-shadow: 0 .5rem 1rem rgba(70, 129, 137, .15) !important;
 }
