@@ -1,0 +1,22 @@
+// Override Bootstrap's default variables
+// Using the user-provided theme color
+$primary: #b23a48;
+
+// A light, complementary background color
+$body-bg: #fdf6f7;
+
+// A darker, harmonious text color
+$body-color: #2e1518;
+
+// Import all of Bootstrap's SASS
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles for a pleasing effect
+.link-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.link-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 .5rem 1rem rgba($primary, .15) !important;
+}
