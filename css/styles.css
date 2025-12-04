@@ -1,8 +1,11 @@
 :root {
-  --bs-primary: #b23a48;
+  /* A calming color scheme based on a dark, rosy red. */
+  --bs-primary: #b23a48; /* Dark, desaturated red */
   --bs-primary-rgb: 178, 58, 72;
-  --bs-body-bg: #fdf6f7;
-  --bs-body-color: #2e1518;
+  --bs-secondary: #6d6875; /* Muted purple-grey */
+  --bs-secondary-rgb: 109, 104, 117;
+  --bs-body-bg: #f7f3f2; /* Light, warm grey */
+  --bs-body-color: #2e1518; /* Dark, reddish-brown for text */
 }
 
 /* Custom styles for a pleasing effect */
