@@ -1,6 +1,6 @@
 :root {
   --background-color: #282C34;
-  --text-color: #ABB2BF;
+  --text-color: #F8F8F2;
   --primary-button-color: #61AFEF;
   --primary-button-hover-color: #528FC6;
   --secondary-button-color: #E06C75;
@@ -12,16 +12,16 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 h1 {
-  font-family: 'Lora', serif;
+  font-family: 'Fraunces', serif;
   color: var(--accent-yellow);
 }
 
 h2 {
-  font-family: 'Lora', serif;
+  font-family: 'Fraunces', serif;
   color: var(--accent-yellow);
   font-size: 2rem; /* Slightly smaller than h1 for hierarchy */
 }
@@ -63,4 +63,20 @@ h2 {
 
 .text-body-secondary {
   color: var(--accent-teal) !important; /* Changed social media icons to accent-teal */
+}
+
+.badge {
+  background-color: var(--primary-button-color);
+  color: var(--text-color);
+  text-align: center;
+  font-family: 'Cinzel Decorative', serif;
+}
+
+.badge-primary {
+  background-color: var(--primary-button-color);
+  color: #fff;
+}
+
+.badge-centered-text {
+  text-align: center;
 }
