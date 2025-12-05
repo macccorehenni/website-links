@@ -1,12 +1,29 @@
-/* A calming color scheme featuring a muted teal and the original rosy red. */
+:root {
+  --background-color: #282C34;
+  --text-color: #ABB2BF;
+  --primary-button-color: #61AFEF;
+  --primary-button-hover-color: #528FC6;
+  --secondary-button-color: #E06C75;
+  --secondary-button-hover-color: #C65A63;
+  --accent-yellow: #E5C07B;
+  --accent-teal: #98C379;
+}
+
 body {
-  background-color: #f4f1de; /* Cream */
-  color: #363636; /* Dark Grey for text */
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
   font-family: 'Lora', serif;
+  color: var(--accent-yellow);
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color: var(--accent-yellow);
+  font-size: 2rem; /* Slightly smaller than h1 for hierarchy */
 }
 
 .btn-primary,
@@ -15,23 +32,23 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #468189; /* Muted Teal */
-  border-color: #468189;
+  background-color: var(--primary-button-color);
+  border-color: var(--primary-button-color);
 }
 
 .btn-primary:hover {
-  background-color: #3a6a72;
-  border-color: #356066;
+  background-color: var(--primary-button-hover-color);
+  border-color: var(--primary-button-hover-color);
 }
 
 .btn-secondary {
-  background-color: #b23a48; /* Dark, desaturated red */
-  border-color: #b23a48;
+  background-color: var(--secondary-button-color);
+  border-color: var(--secondary-button-color);
 }
 
 .btn-secondary:hover {
-  background-color: #9b323f;
-  border-color: #902f3a;
+  background-color: var(--secondary-button-hover-color);
+  border-color: var(--secondary-button-hover-color);
 }
 
 /* Custom styles for a pleasing effect */
@@ -41,5 +58,9 @@ h1 {
 
 .link-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 .5rem 1rem rgba(70, 129, 137, .15) !important;
+    box-shadow: 0 .5rem 1rem rgba(var(--accent-teal), .15) !important;
+}
+
+.text-body-secondary {
+  color: var(--accent-teal) !important; /* Changed social media icons to accent-teal */
 }

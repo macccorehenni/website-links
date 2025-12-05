@@ -1,12 +1,12 @@
 // Override Bootstrap's default variables
 // Using the user-provided theme color
-$primary: #b23a48;
+$primary: #61AFEF;
 
 // A light, complementary background color
-$body-bg: #fdf6f7;
+$body-bg: #282C34;
 
 // A darker, harmonious text color
-$body-color: #2e1518;
+$body-color: #ABB2BF;
 
 // Import all of Bootstrap's SASS
 @import "../node_modules/bootstrap/scss/bootstrap";
